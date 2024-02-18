@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: black;
+}
+
+.clear-button{
+    background-color: red;
+    color: blue($color: #000000);
+}
