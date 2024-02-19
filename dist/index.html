@@ -1,33 +1,58 @@
-<!DOCTYPE html><html><head><style>
+<!DOCTYPE html><html lang="en"><head><style>
     * {
         margin: 0;
         padding: 0;
     }
 
     html {
-        background-color: black;
+        background-color: white;
+    }
+
+    span {
+        font-size: 3rem;
+        color: blueviolet;
+    }
+
+    .container {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
     }
 
     .clear-button {
-        background-color: red;
-        color: blue($color: #000000);
+        background-color: aquamarine;
+        font-size: 2rem;
+        padding: 15px 30px;
+        border-radius: 20px;
+        border: none;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    }
+
+    .clear-button:hover {
+        background-color: gray;
     }
 </style>
 
 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
 <script type="module">
-import init, * as bindings from '/simple_counter-b5404bbfa2848a14.js';
-init('/simple_counter-b5404bbfa2848a14_bg.wasm');
+import init, * as bindings from '/simple_counter-91f86fac0c6454b7.js';
+init('/simple_counter-91f86fac0c6454b7_bg.wasm');
 window.wasmBindings = bindings;
 
 </script>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="style.css">
+    <title>Simple Counter App in Leptos</title>
 
-<link rel="preload" href="/simple_counter-b5404bbfa2848a14_bg.wasm" as="fetch" type="application/wasm" crossorigin="anonymous" integrity="sha384-UujzQ5zVurY7spoc7aJ_QZTEmwZifZq3TjGJX2fpx5b5J3xRrtjrGAA_xFmkFPaO">
-<link rel="modulepreload" href="/simple_counter-b5404bbfa2848a14.js" crossorigin="anonymous" integrity="sha384-NWI6cSONiD9IMMEeY2UMt6w0OAhDhSeIf3nA9-ZjzF4ug9ZyzgonVLB-sxUXKJsg"></head>
+<link rel="preload" href="/simple_counter-91f86fac0c6454b7_bg.wasm" as="fetch" type="application/wasm" crossorigin="anonymous" integrity="sha384-S8Ux_iTMl1U7D2cO7BgTm7RFIcoudyWraXPKFhcJ4HXia0ij2iGbDFiWsY6U2fPY">
+<link rel="modulepreload" href="/simple_counter-91f86fac0c6454b7.js" crossorigin="anonymous" integrity="sha384-aAhzL2eyJny1Jb_WTId3JeB2dsQ3iDz1XQ9lcIAuSyRGhEyVtWWxoZa8SlBLFWpS"></head>
 
 <body>
+
 
 
 <script>"use strict";

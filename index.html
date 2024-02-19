@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <style>
     * {
         margin: 0;
@@ -7,20 +7,45 @@
     }
 
     html {
-        background-color: black;
+        background-color: white;
+    }
+
+    span {
+        font-size: 3rem;
+        color: blueviolet;
+    }
+
+    .container {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
     }
 
     .clear-button {
-        background-color: red;
-        color: blue($color: #000000);
+        background-color: aquamarine;
+        font-size: 2rem;
+        padding: 15px 30px;
+        border-radius: 20px;
+        border: none;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    }
+
+    .clear-button:hover {
+        background-color: gray;
     }
 </style>
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link data-trunk rel="rust" data-wasm-opt="z" />
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link href="style.css" />
+    <title>Simple Counter App in Leptos</title>
 </head>
 
-<body></body>
+<body>
+</body>
 
 </html>
