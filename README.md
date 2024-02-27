@@ -1,7 +1,7 @@
 # This is my first project using the framework Leptos in the Rust programming language.
 
 ## Screenshot of the project
-![Screenshot](https://github.com/sakresh/counterLeptos/assets/screenshot.png?raw=true)
+![Screenshot](assets/screenshot.png)
 
 ### Run the Project
 
@@ -13,7 +13,7 @@ Trunk can be installed using the below command
 cargo install trunk
 ```
 
-Then inside the project folder, run:
+Then inside the directory folder, run:
 
 ```
 trunk serve --open
