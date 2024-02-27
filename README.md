@@ -1,7 +1,7 @@
 # This is my first project using the framework Leptos in the Rust programming language.
 
 ## Screenshot of the project
-https://github.com/sakresh/counterLeptos/assets/screenshot.png
+![Screenshot](https://github.com/sakresh/counterLeptos/assets/screenshot.png?raw=true)
 
 ### Run the Project
 
